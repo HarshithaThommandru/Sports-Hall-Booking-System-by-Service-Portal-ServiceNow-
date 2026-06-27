@@ -1,0 +1,2 @@
+# Sports-Hall-Booking-System-by-Service-Portal-ServiceNow-
+Sports Hall Booking System is a ServiceNow-based Service Portal application that automates sports facility reservations. It provides real-time slot availability, online booking requests, approval workflows, email notifications, and booking status tracking using Flow Designer, ensuring a secure, efficient, and user-friendly booking experience.
