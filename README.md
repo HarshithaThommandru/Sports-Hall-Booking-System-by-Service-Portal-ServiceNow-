@@ -1,26 +1,35 @@
-# Sports-Hall-Booking-System-by-Service-Portal-ServiceNow-
-Sports Hall Booking System is a ServiceNow-based Service Portal application that automates sports facility reservations. It provides real-time slot availability, online booking requests, approval workflows, email notifications, and booking status tracking using Flow Designer, ensuring a secure, efficient, and user-friendly booking experience.
-# Sports Hall Booking System
+# 🏟 Sports Hall Booking System
 
 ## ServiceNow University Internship Group Project
 
-### Team Project
+### Team Information
 
-## Project Overview
-
-The Sports Hall Booking System is a ServiceNow Service Portal application developed during the ServiceNow University Internship. It enables students and users to reserve sports facilities online while providing administrators with tools to manage bookings efficiently.
+| Role | Name |
+|------|------|
+| Team Lead | Thommandru Harshitha |
+| Member | Chinni Chandra Sekhar |
+| Member | Kudumula Avinash Reddy |
+| Member | Shaik Saleema Beebi |
+| Member | Pakkurthi Naga Sowmya |
 
 ---
 
-## Features
+## Project Overview
 
-- Sports Hall Booking
-- View My Bookings
+The Sports Hall Booking System is a ServiceNow Service Portal application developed during the ServiceNow University Internship. The application enables users to reserve sports halls online and allows administrators to manage booking requests efficiently.
+
+---
+
+## Key Features
+
+- Home Page
+- Book Sports Hall
+- My Bookings
 - Cancel Booking
 - Admin Dashboard
 - Approve / Reject Bookings
-- Service Portal Interface
 - Custom Database Tables
+- Service Portal Interface
 
 ---
 
@@ -33,15 +42,14 @@ The Sports Hall Booking System is a ServiceNow Service Portal application develo
 - JavaScript
 - AngularJS
 - GlideRecord
-- Flow Designer (if used)
 
 ---
 
-## Custom Tables
+## Database Tables
 
 ### Sports Halls
 
-Stores hall information.
+Stores information about available sports halls.
 
 ### Sports Hall Bookings
 
@@ -49,6 +57,7 @@ Stores booking details including:
 
 - Hall Name
 - Booked By
+- Booking Date
 - Start Time
 - End Time
 - Purpose
@@ -57,49 +66,29 @@ Stores booking details including:
 
 ---
 
-## Modules
-
-### Home Page
-
-Displays available sports halls and navigation.
-
-### Book Hall
-
-Allows users to submit booking requests.
-
-### My Bookings
-
-Displays booking history and cancellation.
-
-### Admin Dashboard
-
-Allows administrators to:
-
-- View bookings
-- Approve bookings
-- Reject bookings
-
----
-
-## Workflow
+## Project Workflow
 
 User
 
 ↓
 
-Book Hall
+Book Sports Hall
 
 ↓
 
-Booking Stored
+Booking Stored in Database
 
 ↓
 
-Admin Approval
+Admin Reviews Booking
 
 ↓
 
-Booking Confirmed
+Approve / Reject Booking
+
+↓
+
+User Views Updated Status
 
 ---
 
@@ -109,16 +98,10 @@ Booking Confirmed
 - Payment Gateway
 - Calendar Integration
 - Reports & Analytics
-- Mobile Responsive UI
-
----
-
-## Team Members
-
-(Add all your team members here.)
+- Mobile-Friendly Interface
 
 ---
 
 ## Internship
 
-ServiceNow University Internship Group Project
+Developed as part of the ServiceNow University Internship Group Project.
